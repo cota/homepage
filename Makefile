@@ -1,5 +1,5 @@
 PUBGEN := _pubgen
-RMFILES_REL := Makefile pubs/cota.bib
+RMFILES_REL := Makefile pubs/cota.bib README.md
 RMFILES := $(addprefix _site/, $(RMFILES_REL))
 
 all: build
