@@ -1,0 +1,15 @@
+#exclude these folders:
+_site
+bibs
+bib2html
+bib2ml
+random
+*.swp
+*~
+*#
+.#*
+# 
+pubs
+pubs.rss
+index.html
+.DS_Store
