@@ -1,6 +1,7 @@
 PUBGEN := _pubgen
 RMFILES_REL := Makefile pubs/cota.bib README.md
 RMFILES := $(addprefix _site/, $(RMFILES_REL))
+HOSTNAME := cota@clic.cs.columbia.edu
 
 all: build
 
@@ -15,7 +16,8 @@ preprocess:
 	$(MAKE) -C $(PUBGEN) deliver
 
 deliver: build
-	scp -r _site/* cota@clic.cs.columbia.edu:~/html/
+	ssh $(HOSTNAME) "rm -rf ~/html/*"
+	scp -r _site/* $(HOSTNAME):~/html/
 
 clean:
 	$(MAKE) -C $(PUBGEN) clean
