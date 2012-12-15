@@ -16,7 +16,6 @@ preprocess:
 	$(MAKE) -C $(PUBGEN) deliver
 
 deliver: build
-	ssh $(HOSTNAME) "rm -rf ~/html/*"
 	scp -r _site/* $(HOSTNAME):~/html/
 
 clean:
