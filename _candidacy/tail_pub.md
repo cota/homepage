@@ -12,7 +12,7 @@
   <h2>{{ block.level_1 }}</h2>
   {% for paper in block.papers %}
   <li>
-      [{{ paper.author_date }}]
+      [<span style="font-variant: small-caps">{{ paper.author_date }}</span>]
       {% if paper.url %}
       <a href="{{ paper.url }}">
       {% endif %}
