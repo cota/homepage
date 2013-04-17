@@ -16,10 +16,7 @@
       {% if paper.url %}
       <a href="{{ paper.url }}">
       {% endif %}
-      <b>{{ paper.title }}.</b>
-      {% if paper.url %}
-      </a>
-      {% endif %}
+      <b>{{ paper.title }}</b>{% if paper.url %}</a>{% endif %}
       {% if paper.pdf %}
       <b> [<a href="pubs/{{ paper.pdf }}">pdf</a>]</b>
       {% endif %}
