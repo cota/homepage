@@ -9,7 +9,7 @@ BIB_FILE = list.bib
 SITE_FOLDER=../
 
 PUBDOMO = pubdomo --html --styles=styles --pubs=$(PUBS) --nodowncase --asc \
-	--keywords="Motivation,Memory Controller Scheduling,Non-Uniform Cache Architectures (NUCA),Memory System Partitioning,Scalability"
+	--keywords="Motivation,Memory Controller,Non-Uniform Cache Architectures (NUCA),Multicore Scalability,Heterogeneous Architectures"
 
 OBJS = $(KEYWORD)
 
