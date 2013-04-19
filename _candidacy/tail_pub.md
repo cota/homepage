@@ -1,9 +1,9 @@
 ---
-<h1>{{ page.title }} -- Title TBD</h1>
+<h1>{{ page.title }}</h1>
 <ul>
-  <li> Committee: TBA</li>
-  <li> Time and Date: TBD</li>
-  <li> Location: TBD</li>
+  <li> Committee: <a href="http://www.cs.columbia.edu/~luca/">Luca Carloni</a>, <a href="http://www.cs.columbia.edu/~nieh/">Jason Nieh</a>, <a href="http://www.cs.columbia.edu/~simha/">Simha Sethumadhavan</a>.</li>
+  <li> Time and date: 1:30p-3:30p, Tuesday, April 30, 2013.</li>
+  <li> Location: CSB 453 (CS Conference Room).</li>
 </ul>
 
 <h1>Syllabus</h1>
