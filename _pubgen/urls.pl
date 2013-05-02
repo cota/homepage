@@ -9,6 +9,7 @@ my %urls = (
     'Marcin Szczodrak' => 'http://www.cs.columbia.edu/~msz/',
     'Michele Petracca' => 'https://sites.google.com/site/mipetracca/',
     'Nicola Concer' => 'http://www.cs.columbia.edu/~concer/',
+    'Paolo Mantovani' => 'http://www.cs.columbia.edu/~paolo/',
     'Young-Yin Yoon' => 'http://www1.cs.columbia.edu/~youngjin/',
     );
 
