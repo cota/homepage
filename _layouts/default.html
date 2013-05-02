@@ -3,7 +3,7 @@
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-   <title>Emilio G. Cota Home Page</title>
+   <title>Emilio G. Cota{% if page.title %} - {{ page.title }}{% endif %}</title>
    <meta name="author" content="Emilio G. Cota" />
    <link href="pubs.rss" rel="alternate" title="Emilio G. Cota | Publications" type="application/atom+xml" />
    <link href="favicon.ico" rel="shortcut icon">
@@ -13,25 +13,9 @@
 </head>
 <body>
 
-<h1>Emilio G. Cota</h1>
-
-<img ALIGN="left" width="194" height="200" hspace="100" src="images/cota.jpeg" alt="Emilio picture">
-<ul>
-<li><a href="http://www.cs.columbia.edu/~cota">Emilio G. Cota</a></li>
-<a href="http://sld.cs.columbia.edu/">SLD Group</a>, <a href="http://www.cs.columbia.edu/">Computer Science Department</a>, <a href="http://www.columbia.edu/">Columbia University</a></li>
-<li>467 Computer Science Building,
-<br />
-1214 Amsterdam Avenue
-<br />
-New York, NY 10027
-</li>
-<li><span class="oppdir">ude.aibmuloc.sc@atoc</span></li>
-</ul>
-<br />
-<br />
-
-<hr />
-
+{% if page.type == 'sub' %}
+<h1> <a href="index.html">Emilio G. Cota</a>: {{ page.title }}</h1>
+{% endif %}
 {{ content }}
 
 <hr />

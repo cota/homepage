@@ -1,3 +1,3 @@
 ---
 layout: default
-title: Publications
+title: Home Page

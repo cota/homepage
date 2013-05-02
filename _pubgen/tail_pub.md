@@ -1,5 +1,22 @@
 ---
-<h2>{{ page.title }} (<a href="pubs.rss">RSS</a>)</h2>
+<h1>Emilio G. Cota</h1>
+
+<img ALIGN="left" width="194" height="200" hspace="100" src="images/cota.jpeg" alt="Emilio picture">
+<ul>
+<li><a href="http://www.cs.columbia.edu/~cota">Emilio G. Cota</a></li>
+<a href="http://sld.cs.columbia.edu/">SLD Group</a>, <a href="http://www.cs.columbia.edu/">Computer Science Department</a>, <a href="http://www.columbia.edu/">Columbia University</a></li>
+<li>467 Computer Science Building,
+<br />
+1214 Amsterdam Avenue
+<br />
+New York, NY 10027
+</li>
+<li><span class="oppdir">ude.aibmuloc.sc@atoc</span></li>
+</ul>
+<br />
+<br />
+<hr />
+<h2>Publications (<a href="pubs.rss">RSS</a>)</h2>
 <ul>
 {% for block in page.publications %}
   {% for paper in block.papers %}

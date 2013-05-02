@@ -1,5 +1,4 @@
 ---
-<h1>{{ page.title }}</h1>
 <ul>
   <li> Committee: <a href="http://www.cs.columbia.edu/~luca/">Luca Carloni</a>, <a href="http://www.cs.columbia.edu/~nieh/">Jason Nieh</a>, <a href="http://www.cs.columbia.edu/~simha/">Simha Sethumadhavan</a>.</li>
   <li> Time and date: 1:30p-3:30p, Tuesday, April 30, 2013.</li>
