@@ -4,13 +4,13 @@ use warnings;
 use strict;
 
 my %urls = (
-    'Hung-Yi Liu' => 'https://sites.google.com/site/hungyiliu/',
-    'Luca P. Carloni' => 'http://www.cs.columbia.edu/~luca/',
-    'Marcin Szczodrak' => 'http://www.cs.columbia.edu/~msz/',
-    'Michele Petracca' => 'https://sites.google.com/site/mipetracca/',
-    'Nicola Concer' => 'http://www.cs.columbia.edu/~concer/',
-    'Paolo Mantovani' => 'http://www.cs.columbia.edu/~paolo/',
-    'Young-Yin Yoon' => 'http://www1.cs.columbia.edu/~youngjin/',
+    'Hung-Yi Liu' => 'http://sites.google.com/site/hungyiliu',
+    'Luca P. Carloni' => 'http://www.cs.columbia.edu/~luca',
+    'Marcin Szczodrak' => 'http://www.cs.columbia.edu/~msz',
+    'Michele Petracca' => 'http://sites.google.com/site/mipetracca',
+    'Nicola Concer' => 'http://www.cs.columbia.edu/~concer',
+    'Paolo Mantovani' => 'http://www.cs.columbia.edu/~paolo',
+    'Young-Yin Yoon' => 'http://www.cs.columbia.edu/~youngjin',
     );
 
 die("No input file given\n") if !@ARGV;
