@@ -1,6 +1,6 @@
 PUBGEN := _pubgen
 CANDIDACY := _candidacy
-RMFILES_REL := Makefile pubs/cota.bib README.md
+RMFILES_REL := Makefile pubs/cota.bib README.md pubs/candidacy.odp
 RMFILES := $(addprefix _site/, $(RMFILES_REL))
 HOSTNAME := cota@clic.cs.columbia.edu
 
