@@ -18,7 +18,7 @@ preprocess:
 	$(MAKE) -C $(CANDIDACY) deliver
 
 deliver: build
-	scp -r _site/* $(HOSTNAME):~/html/
+	./deliver.sh $(HOSTNAME)
 
 clean:
 	$(MAKE) -C $(PUBGEN) clean
