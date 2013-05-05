@@ -1,7 +1,7 @@
 ---
 <h1>Emilio G. Cota</h1>
 
-<img ALIGN="left" width="194" height="200" hspace="100" src="images/cota.jpeg" alt="Emilio picture">
+<img ALIGN="left" width="303" height="200" hspace="75" src="images/cota0.jpg" alt="Emilio picture">
 <ul>
 <li><a href="http://www.cs.columbia.edu/~cota">Emilio G. Cota</a></li>
 <a href="http://sld.cs.columbia.edu/">SLD Group</a>, <a href="http://www.cs.columbia.edu/">Computer Science Department</a>, <a href="http://www.columbia.edu/">Columbia University</a></li>
