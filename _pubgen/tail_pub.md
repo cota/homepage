@@ -43,6 +43,9 @@ New York, NY 10027
       {% if paper.odt %}
       <b> [<a href="pubs/{{ paper.odt }}">odt</a>]</b>
       {% endif %}
+      {% if paper.slides %}
+      <b> [<a href="pubs/{{ paper.slides }}">slides</a>]</b>
+      {% endif %}
 
       {% if paper.note %}
       <b><font color="#aa0000"> {{ paper.note }}</font></b>
