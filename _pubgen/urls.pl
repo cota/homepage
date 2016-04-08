@@ -4,8 +4,11 @@ use warnings;
 use strict;
 
 my %urls = (
+    'Christian Pilato' => 'http://www.cs.columbia.edu/~pilato',
     'Giuseppe Di Guglielmo' => 'http://www.cs.columbia.edu/~giuseppe',
     'Hung-Yi Liu' => 'http://sites.google.com/site/hungyiliu',
+    'Ken Shepard' => 'http://www.bioee.ee.columbia.edu/~shepard',
+    'Kevin Tien' => 'http://www.bioee.ee.columbia.edu/~ktien',
     'Luca P. Carloni' => 'http://www.cs.columbia.edu/~luca',
     'Marcin Szczodrak' => 'http://www.cs.columbia.edu/~msz',
     'Michele Petracca' => 'http://sites.google.com/site/mipetracca',
