@@ -4,6 +4,7 @@ use warnings;
 use strict;
 
 my %urls = (
+    'Giuseppe Di Guglielmo' => 'http://www.cs.columbia.edu/~giuseppe',
     'Hung-Yi Liu' => 'http://sites.google.com/site/hungyiliu',
     'Luca P. Carloni' => 'http://www.cs.columbia.edu/~luca',
     'Marcin Szczodrak' => 'http://www.cs.columbia.edu/~msz',
