@@ -57,6 +57,7 @@ New York, NY 10027
       [<a href="bibs/{{ paper.bib }}">BibTeX entry</a>]
       {% endif %}
   </li>
+  <br />
   {% endfor %}
 {% endfor %}
 </ul>
