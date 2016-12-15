@@ -77,6 +77,7 @@ New York, NY 10027
 
 <h2>etc.</h2>
 <ul>
+<li><a href="http://braap.org/docs/cota-resume.pdf">My resume</a></li>
 <li><a href="https://github.com/cota">Some code</a> on github. Unfortunately not much of what I write these days is there.</li>
 <li><a href="http://www.ohwr.org/projects/white-rabbit/wiki">White Rabbit</a>,
 a deterministic network for sub-nanosecond synchronisation which I contributed
