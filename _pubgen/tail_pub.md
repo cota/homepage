@@ -14,7 +14,6 @@ New York, NY 10027
 <li><span class="oppdir">ude.aibmuloc.sc@atoc</span></li>
 </ul>
 <br />
-<br />
 <hr />
 <h2>Publications (<a href="pubs.rss">RSS</a>)</h2>
 <ul>
