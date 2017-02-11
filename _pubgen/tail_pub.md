@@ -79,6 +79,7 @@ New York, NY 10027
 <ul>
 <li><a href="http://braap.org/docs/cota-resume.pdf">My resume</a></li>
 <li><a href="https://github.com/cota">Github page</a></li>
+<li><a href="https://scholar.google.com/citations?user=bEuTEtEAAAAJ">Google Scholar page</a></li>
 <li><a href="http://www.ohwr.org/projects/white-rabbit/wiki">White Rabbit</a>,
 a deterministic network for sub-nanosecond synchronisation which I contributed
 to while at <a href="http://cern.ch/">CERN</a> (a <a href="images/dilbert.gif">peculiar place.</a>)
