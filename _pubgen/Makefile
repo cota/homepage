@@ -19,13 +19,15 @@ OBJS = $(YEAR) $(RSS)
 all: $(OBJS)
 
 year.yaml: $(BIB_FILE)
-	$(PUBDOMO) --splitbib --sort=year $< > $@
+	$(PUBDOMO) --splitbib --sort=year $< > $@.tmp
+	mv $@.tmp $@
 $(YEAR): year.yaml
 	cat $(HEAD) $< $(TAIL) > $@.tmp
 	./urls.pl $@.tmp > $@
 
 $(RSS): year.yaml
-	cat $< | $(RSS_SCRIPT) > $@
+	cat $< | $(RSS_SCRIPT) > $@.tmp
+	mv $@.tmp $@
 
 deliver: all
 	cp $(OBJS) $(SITE_FOLDER)
