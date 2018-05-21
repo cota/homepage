@@ -71,6 +71,7 @@ New York, NY 10027
 
 <h2>TAing</h2>
 <ul>
+<li>Summer 2018: <a href="http://www.cs.columbia.edu/~cs4824/">CSEE4824 Computer Architecture</a></li>
 <li>Fall 2012: <a href="http://www.cs.columbia.edu/~cs4824/">CSEE4824 Computer Architecture</a></li>
 <li>Fall 2011: <a href="http://www.cs.columbia.edu/~cs4824/">CSEE4824 Computer Architecture</a></li>
 </ul>
