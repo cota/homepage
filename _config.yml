@@ -6,4 +6,4 @@ exclude: [deliver.sh]
 title_prefix: Hello World
 ga_id: UA-34382324-1
 markdown: rdiscount
-pygments: true
+highlighter: pygments
