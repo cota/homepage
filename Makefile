@@ -7,11 +7,11 @@ HOSTNAME := cota@clic.cs.columbia.edu
 all: build
 
 build: preprocess
-	jekyll
+	jekyll build
 	rm $(RMFILES)
 
 test: build
-	jekyll --server 4323
+	jekyll --server 4323 serve
 
 preprocess:
 	$(MAKE) -C $(PUBGEN) deliver
