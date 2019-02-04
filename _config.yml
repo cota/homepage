@@ -1,9 +1,36 @@
 permalink: none
-base_dir: /~cota/
-include: [.htaccess]
-exclude: [deliver.sh]
+base_dir: /~cota
 
-title_prefix: Hello World
+
+include: [.htaccess]
+exclude: ['Makefile', 'deliver.sh', 'pubs/cota.bib', 'pubs/candidacy.odp', 'README.md']
+
+plugins:
+- jekyll/scholar
+- jekyll-textile-converter
+
 ga_id: UA-34382324-1
 markdown: rdiscount
 highlighter: pygments
+encoding: utf-8
+
+scholar:
+  style: _pubgen/sld.csl
+  locale: en
+  use_raw_bibtex_entry: true
+
+  sort_by: year, month
+  order: descending
+  group_by: year
+  group_order: descending
+  bibliography_list_tag: ul
+  bibtex_skip_fields: [ 'abstract', 'month_numeric', 'note', 'keywords' ]
+
+  source: .
+  bibliography: pubs/cota
+  repository: pubs
+  bibliography_template: bib
+
+  replace_strings: true
+
+  query: "@*"

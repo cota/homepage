@@ -1,26 +1,23 @@
 PUBGEN := _pubgen
 CANDIDACY := _candidacy
-RMFILES_REL := Makefile pubs/cota.bib README.md pubs/candidacy.odp
-RMFILES := $(addprefix _site/, $(RMFILES_REL))
 HOSTNAME := cota@compute.cs.columbia.edu
 
 all: build
 
-build: preprocess
+build: pubs.rss
 	jekyll build
-	rm $(RMFILES)
+	$(PUBGEN)/postprocess.pl _site/index.html > _site/index.html.tmp
+	mv _site/index.html.tmp _site/index.html
+
+pubs.rss: pubs/cota.bib
+	$(PUBGEN)/rss.pl $< > $@
 
 test: build
-	jekyll --server 4323 serve
-
-preprocess:
-	$(MAKE) -C $(PUBGEN) deliver
-	$(MAKE) -C $(CANDIDACY) deliver
+	jekyll --server 4323
 
 deliver: build
 	./deliver.sh $(HOSTNAME)
 
 clean:
-	$(MAKE) -C $(PUBGEN) clean
-	$(MAKE) -C $(CANDIDACY) clean
+	$(RM) -r _site *.rss
 .PHONY: all build test
