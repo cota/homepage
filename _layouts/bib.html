@@ -1,0 +1,25 @@
+---
+---
+  <div class="pub_entry"> {{ reference }}
+      {% if entry.note %}
+      <span class="button note">{{ entry.note }}</span>
+      {% endif %}
+
+      {% for ext in links %}
+        {% if ext[0] == 'pdf' %}
+          <a href="{{ site.base_dir }}{{ ext[1] }}" class="button uppercase">{{ ext[0] | upcase }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% assign sorted_links = links | sort: [0] %}
+      {% for ext in sorted_links %}
+        {% if ext[0] != 'pdf' %}
+          <a href="{{ site.base_dir }}{{ ext[1] }}" class="button uppercase">{{ ext[0] | upcase | remove: ".PDF" }}</a>
+        {% endif %}
+      {% endfor %}
+
+      <a href="#{{ key }}-bibtex" onclick="close(); return false" class="collapse-toggle button smallcaps">BibT<sub>E</sub>X</a>
+      <div id="{{ key }}-bibtex" class="collapsible">
+          <pre>{{ entry.bibtex }}</pre>
+      </div>
+  </div>
