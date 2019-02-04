@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+   <title>Emilio G. Cota - PhD Candidacy Exam</title>
+   <meta name="author" content="Emilio G. Cota" />
+   <link href="pubs.rss" rel="alternate" title="Emilio G. Cota | Publications" type="application/atom+xml" />
+   <link href="favicon.ico" rel="shortcut icon">
+   <meta name="robots" content="index, follow" />
+   <link rel="stylesheet" href="css/simple.css" type="text/css" />
+
+</head>
+<body>
+
+
+<h1> <a href="index.html">Emilio G. Cota</a>: PhD Candidacy Exam</h1>
+
+<ul>
+  <li> Title: <b>Computer Systems Research in the Post-Dennard Scaling Era</b></li>
+  <li> Abstract:
+The end of Dennard scaling has forced computer system architects
+to turn their attention from performance to energy efficiency,
+since the former is now determined by the latter.
+
+Drawing from recent research, this talk discusses
+the challenges of this new era and highlights recent work on
+tackling them through greater degrees of parallelism and heterogeneity.
+</li>
+  <li> Slides: <a href="https://speakerdeck.com/cota/computer-systems-research-in-the-post-dennard-scaling-era">Speaker Deck</a>, <a href="pubs/candidacy.pdf">pdf</a>.
+  <li> Committee: <a href="http://www.cs.columbia.edu/~luca/">Luca Carloni</a>, <a href="http://www.cs.columbia.edu/~nieh/">Jason Nieh</a>, <a href="http://www.cs.columbia.edu/~simha/">Simha Sethumadhavan</a>.</li>
+  <li> Time and date: 1:30p-3:30p, Tuesday, April 30, 2013.</li>
+  <li> Location: CSB 453 (CS Conference Room).</li>
+</ul>
+
+<h1>Syllabus</h1>
+<ol>
+
+  <h2>Motivation</h2>
+  
+  <li>
+      [<span style="font-variant: small-caps">Hameed 2010</span>]
+      
+      <a href="http://doi.acm.org/10.1145/1815961.1815968">
+      
+      <b>Understanding sources of inefficiency in general-purpose chips</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Rehan Hameed, Wajahat Qadeer, Megan Wachs, Omid Azizi, Alex Solomatnikov, Benjamin C. Lee, Stephen Richardson, Christos Kozyrakis and Mark Horowitz.<br />
+      In the <i>Proceedings of the 37th annual international symposium on Computer architecture</i>, 2010, 37–47.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Borkar 2011</span>]
+      
+      <a href="http://doi.acm.org/10.1145/1941487.1941507">
+      
+      <b>The future of microprocessors</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Shekhar Borkar and Andrew A. Chien.<br />
+      <i>Commun. ACM</i>, vol. 54, no. 5, 67–77, May 2011.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Consortium 2012</span>]
+      
+      <a href="http://cra.org/ccc/docs/init/21stcenturyarchitecturewhitepaper.pdf">
+      
+      <b>21st Century Computer Architecture</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Computing Community Consortium, led by Mark D. Hill.<br />
+      <i>A Community White Paper</i>, May 2012.
+      
+  </li>
+  <br />
+  
+
+  <h2>Memory Controller</h2>
+  
+  <li>
+      [<span style="font-variant: small-caps">Mutlu 2007</span>]
+      
+      <a href="http://dx.doi.org/10.1109/MICRO.2007.40">
+      
+      <b>Stall-Time Fair Memory Access Scheduling for Chip Multiprocessors</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Onur Mutlu and Thomas Moscibroda.<br />
+      In the <i>Proceedings of the 40th Annual IEEE/ACM International Symposium on Microarchitecture</i>, 2007, 146–160.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Abts 2009</span>]
+      
+      <a href="http://doi.acm.org/10.1145/1555754.1555810">
+      
+      <b>Achieving predictable performance through better memory controller placement in many-core CMPs</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Dennis Abts, Natalie D. Enright Jerger, John Kim, Dan Gibson and Mikko H. Lipasti.<br />
+      In the <i>Proceedings of the 36th annual international symposium on Computer architecture</i>, 2009, 451–461.
+      
+  </li>
+  <br />
+  
+
+  <h2>Non-Uniform Cache Architectures (NUCA)</h2>
+  
+  <li>
+      [<span style="font-variant: small-caps">Kim 2002</span>]
+      
+      <a href="http://doi.acm.org/10.1145/605397.605420">
+      
+      <b>An adaptive, non-uniform cache structure for wire-delay dominated on-chip caches</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Changkyu Kim, Doug Burger and Stephen W. Keckler.<br />
+      In the <i>Proceedings of the 10th international conference on Architectural support for programming languages and operating systems</i>, 2002, 211–222.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Cho 2006</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=1194858">
+      
+      <b>Managing distributed, shared L2 caches through OS-level page allocation</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Sangyeun Cho and Lei Jin.<br />
+      In the <i>Proceedings of the 39th Annual IEEE/ACM International Symposium on Microarchitecture</i>, 2006, 455–468.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Merino 2010</span>]
+      
+      <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5416641">
+      
+      <b>ESP-NUCA: A low-cost adaptive non-uniform cache architecture</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Javier Merino, Valentin Puente and Jose A. Gregorio.<br />
+      In the <i>2010 IEEE 16th International Symposium on High Performance Computer Architecture (HPCA)</i>, 2010, 1–10.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Herrero 2010</span>]
+      
+      <a href="http://doi.acm.org/10.1145/1815961.1816018">
+      
+      <b>Elastic cooperative caching: an autonomous dynamically adaptive memory hierarchy for chip multiprocessors</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Enric Herrero, José González and Ramon Canal.<br />
+      In the <i>Proceedings of the 37th annual international symposium on Computer architecture</i>, 2010, 419–428.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Lee 2011</span>]
+      
+      <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5749731">
+      
+      <b>CloudCache: Expanding and shrinking private caches</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Hyunjin Lee, Sangyeun Cho and Bruce R. Childers.<br />
+      In the <i>2011 IEEE 17th International Symposium on High Performance Computer Architecture (HPCA)</i>, 2011, 219–230.
+      
+  </li>
+  <br />
+  
+
+  <h2>Multicore Scalability</h2>
+  
+  <li>
+      [<span style="font-variant: small-caps">Baumann 2009</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=1629579">
+      
+      <b>The multikernel: a new OS architecture for scalable multicore systems</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Andrew Baumann, Paul Barham, Pierre-Evariste Dagand, Tim Harris, Rebecca Isaacs, Simon Peter, Timothy Roscoe, Adrian Schüpbach and Akhilesh Singhania.<br />
+      In the <i>Proceedings of the ACM SIGOPS 22nd symposium on Operating systems principles</i>, 2009, 29–44.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Boyd-Wickizer 2010</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=1924943.1924944">
+      
+      <b>An analysis of Linux scalability to many cores</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Silas Boyd-Wickizer, Austin T. Clements, Yandong Mao, Aleksey Pesterev, M. Frans Kaashoek, Robert Morris and Nickolai Zeldovich.<br />
+      In the <i>Proceedings of the 9th USENIX conference on Operating systems design and implementation</i>, 2010, 1–8.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Clements 2012</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=2150998">
+      
+      <b>Scalable address spaces using RCU balanced trees</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Austin T. Clements, M. Frans Kaashoek and Nickolai Zeldovich.<br />
+      In the <i>Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems</i>, 2012, 199–210.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Lotfi-Kamran 2012</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=2337217">
+      
+      <b>Scale-out processors</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Pejman Lotfi-Kamran, Boris Grot, Michael Ferdman, Stavros Volos, Onur Kocberber, Javier Picorel, Almutaz Adileh, Djordje Jevdjic, Sachin Idgunji and Emre Ozer.<br />
+      In the <i>Proceedings of the 39th International Symposium on Computer Architecture</i>, 2012, 500–511.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Boyd-Wickizer 2012</span>]
+      
+      <a href="http://pdos.csail.mit.edu/papers/linux:lock.pdf">
+      
+      <b>Non-scalable locks are dangerous</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Silas Boyd-Wickizer, M. Frans Kaashoek, Robert Morris and Nickolai Zeldovich.<br />
+      In the <i>Proceedings of the Linux Symposium, Ottawa, Canada</i>, 2012.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Martin 2012</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=2209269">
+      
+      <b>Why on-chip cache coherence is here to stay</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Milo MK Martin, Mark D. Hill and Daniel J. Sorin.<br />
+      <i>Communications of the ACM</i>, vol. 55, no. 7, 78–89, Jul. 2012.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Dashti 2013</span>]
+      
+      <a href="http://www.cs.sfu.ca/~fedorova/papers/asplos284-dashti.pdf">
+      
+      <b>Traffic management: A holistic approach to memory placement on NUMA systems</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Mohammad Dashti, Alexandra Fedorova, Justin Funston, Fabien Gaud, Renaud Lachaize, Baptiste Lepers, Vivien Quéma and Mark Roth.<br />
+      In the <i>Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems</i>, 2013, 381–394.
+      
+  </li>
+  <br />
+  
+
+  <h2>Heterogeneous Architectures</h2>
+  
+  <li>
+      [<span style="font-variant: small-caps">Kim 2007</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=1331733">
+      
+      <b>Composable Lightweight Processors</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Changkyu Kim, S. Sethumadhavan, M. S. Govindan, N. Ranganathan, D. Gulati, D. Burger and S.W. Keckler.<br />
+      In the <i>40th Annual IEEE/ACM International Symposium on Microarchitecture, 2007. MICRO 2007</i>, 2007, 381–394.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Chung 2010</span>]
+      
+      <a href="http://dl.acm.org/citation.cfm?id=1935024">
+      
+      <b>Single-Chip Heterogeneous Computing: Does the Future Include Custom Logic, FPGAs, and GPGPUs?</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by E.S. Chung, P.A. Milder, J.C. Hoe and Ken Mai.<br />
+      In the <i>Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture</i>, 2010, 225–236.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Goulding-Hotta 2011</span>]
+      
+      <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5719585">
+      
+      <b>The GreenDroid mobile application processor: An architecture for silicon’s dark future</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Nathan Goulding-Hotta, Jack Sampson, Ganesh Venkatesh, Saturnino Garcia, Joe Auricchio, P. Huang, Manish Arora, Siddhartha Nath, Vikram Bhatt and Jonathan Babb.<br />
+      <i>Micro, IEEE</i>, vol. 31, no. 2, 86–95, 2011.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Esmaeilzadeh 2012</span>]
+      
+      <a href="http://doi.acm.org/10.1145/2150976.2151008">
+      
+      <b>Architecture support for disciplined approximate programming</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Hadi Esmaeilzadeh, Adrian Sampson, Luis Ceze and Doug Burger.<br />
+      In the <i>Proceedings of the seventeenth international conference on Architectural Support for Programming Languages and Operating Systems</i>, 2012, 301–312.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Cong 2012</span>]
+      
+      <a href="http://doi.acm.org/10.1145/2228360.2228512">
+      
+      <b>Architecture support for accelerator-rich CMPs</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Jason Cong, Mohammad Ali Ghodrat, Michael Gill, Beayna Grigorian and Glenn Reinman.<br />
+      In the <i>Proceedings of the 49th Annual Design Automation Conference</i>, 2012, 843–849.
+      
+  </li>
+  <br />
+  
+  <li>
+      [<span style="font-variant: small-caps">Raghavan 2013</span>]
+      
+      <a href="http://web.eecs.umich.edu/~twenisch/papers/asplos13.pdf">
+      
+      <b>Computational Sprinting on a Hardware/Software Testbed</b></a>
+      
+      
+      
+      
+      
+      
+      
+
+      
+      <br />
+      by Arun Raghavan, Laurel Emurian, Lei Shao, Marios Papaefthymiou, Kevin P. Pipe, Thomas F. Wenisch and Milo MK Martin.<br />
+      In the <i>Proceedings of the eighteenth international conference on Architectural support for programming languages and operating systems</i>, 2013, 155–166.
+      
+  </li>
+  <br />
+  
+
+</ol>
+
+
+<hr />
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-34382324-1");
+pageTracker._trackPageview();
+</script>
+<!-- Google Analytics end -->
+
+</body>
+</html>
