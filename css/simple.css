@@ -18,3 +18,47 @@ span.oppdir {
     direction: rtl;
     font-style: italic;
 }
+
+.button {
+    border-radius:5px;
+    display:inline-block;
+    padding:2px 7px;
+    border:2px solid;
+    margin:0 1px 1px 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight: 500;
+    font-size: 13px;
+    text-align:center;
+    transition: all 0.15s;
+}
+
+.up {
+    text-transform:uppercase;
+}
+
+.note {
+    background-color: #35beb1;
+    border-color: #35beb1;
+    color: #ffffff;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.collapsible {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #dddddd;
+    font-size: 12px;
+}
+
+.pub_entry {
+    margin-bottom: 30px;
+}
+
+.vmiddle {
+    vertical-align: middle;
+}
