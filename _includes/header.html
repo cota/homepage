@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_id }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.ga_id }}');
+    </script>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Emilio G. Cota{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <meta name="author" content="Emilio G. Cota" />
+    <link href="pubs.rss" rel="alternate" title="Emilio G. Cota | Publications" type="application/atom+xml" />
+    <link href="favicon.ico" rel="shortcut icon">
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="css/simple.css" type="text/css" />
+
+  </head>
+  <body>
