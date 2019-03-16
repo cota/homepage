@@ -8,6 +8,7 @@ build: pubs.rss
 	jekyll build
 	$(PUBGEN)/postprocess.pl _site/index.html > _site/index.html.tmp
 	mv _site/index.html.tmp _site/index.html
+	$(RM) -r _site/pubs/*-slides
 
 pubs.rss: pubs/cota.bib
 	$(PUBGEN)/rss.pl $< > $@
