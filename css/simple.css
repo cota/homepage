@@ -62,3 +62,12 @@ span.oppdir {
 .vmiddle {
     vertical-align: middle;
 }
+
+img.wrap {
+    max-width: 70%;  margin: 0px 0px;
+}
+
+img.align-left {
+    float: left;
+    margin-right: 65px;
+}
